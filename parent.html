@@ -26,8 +26,85 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
+            <!-- Main CSS File -->
+            <link href="assets/css/main.css" rel="stylesheet">
+            <style>
+                .iframe-container {
+                    position: relative;
+                    width: 100%;
+                    max-width: 500px;
+                    aspect-ratio: 9/16;
+                    background: #000;
+                    border-radius: 16px;
+                    overflow: hidden;
+                    margin: 0 auto;
+                    height: 70vh;
+                    max-height: 80vw;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .iframe-container iframe {
+                    width: 100%;
+                    height: 100%;
+                    border: 0;
+                    background: #000;
+                    border-radius: 16px;
+                    display: block;
+                }
+                @media (max-width: 992px) {
+                    .iframe-container {
+                        max-width: 100vw;
+                        height: 50vh;
+                        border-radius: 0;
+                    }
+                    .iframe-container iframe {
+                        border-radius: 0;
+                    }
+                }
+                @media (max-width: 500px) {
+                    .iframe-container {
+                        max-width: 100vw;
+                        height: 40vh;
+                        border-radius: 0;
+                    }
+                    .iframe-container iframe {
+                        border-radius: 0;
+                    }
+                }
+            </style>
+        <style>
+                    .iframe-container {
+                        position: relative;
+                        width: 100%;
+                        max-width: 500px;
+                        aspect-ratio: 9/16;
+                        background: #000;
+                        border-radius: 16px;
+                        overflow: hidden;
+                        margin: 0 auto;
+                    }
+                    @media (min-width: 992px) {
+                        .iframe-container {
+                            max-width: 600px;
+                        }
+                    }
+            .iframe-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+                background: #000;
+            }
+                    @media (max-width: 500px) {
+                        .iframe-container {
+                            max-width: 100vw;
+                            border-radius: 0;
+                        }
+                    }
+        </style>
 
 </head>
 
@@ -68,11 +145,11 @@
         <!-- Page Title -->
         <div class="page-title dark-background">
             <div class="container d-lg-flex justify-content-between align-items-center">
-                <h1 class="mb-2 mb-lg-0">Minimal Multi-Transport Chat Toolkit</h1>
+                <h1 class="mb-2 mb-lg-0">Project Reach Parent Engagement App</h1>
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="index.html">Home</a></li>
-                        <li class="current">Minimal Multi-Transport Chat Toolkit</li>
+                        <li class="current">Project Reach Parent Engagement App</li>
                     </ol>
                 </nav>
             </div>
@@ -86,9 +163,8 @@
                 <div class="row gy-4">
 
                     <div class="col-lg-8">
-                        <div class="iframe-container d-flex justify-content-center">
-                            <iframe src=""
-                                class="responsive-iframe"
+                        <div class="iframe-container">
+                            <iframe src="https://drive.google.com/file/d/1wFP9Hxjvzu-tZRXA3pZqMRM26ql6_xD-/preview"
                                 allow="autoplay; fullscreen">
                             </iframe>
                         </div>
@@ -99,23 +175,33 @@
                         <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
                             <h3>Technical Highlights</h3>
                             <ul>
-                                <li><strong>Project URL</strong>: <a href="https://github.com/Nushrah/Library-Management-System" target="_blank">Github</a></li>
-                                <li><strong>✔ Single codec for WS/TCP/UDP</strong></li>
-                                <li><strong>✔ Async WebSocket, threaded TCP</strong></li>
-                                <li><strong>✔ UDP + ACK reliability</strong></li>
-                                <li><strong>✔ LAN auto-discovery beacon</strong></li>
+                                <li><strong>Project URL</strong>: <a href="https://github.com/Tim0308/Morgan-Stanley-Code-to-Give" target="_blank">Github</a></li>
+                                <li><strong>✔ MORGAN STANLEY CODE TO GIVE 2025 TOP 10</strong></li>
+                                <li><strong>✔ AI-powered screenshot analysis with Qwen2.5-VL - BUILT INDEPENDENTLY BY ME!</strong></li>
+                                <li><strong>✔ FastAPI microservices with async/await patterns</strong></li>
+                                <li><strong>✔ React Native + Expo cross-platform mobile</strong></li>
+                                <li><strong>✔ PostgreSQL RLS + JWT authentication</strong></li>
+                                <li><strong>✔ Real-time WebSocket gamification system</strong></li>
                             </ul>
                         </div>
                         <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-                            <h2>TriChat-Lite – A Minimal Multi-Transport Chat Toolkit</h2>
+                            <h2>Project Reach Parent Engagement App – AI and computer vision powered educational SaaS platform</h2>
                             <p>
-                                TriChat-Lite is a concise networking lab that proves 
-                                mastery of core socket programming concepts. A shared 
-                                length-prefixed protocol is implemented three times: an asyncio WebSocket 
-                                server for modern browser-friendly messaging, a classic TCP chat server 
-                                using Python threads, and a UDP broadcast chat enhanced with a tiny reliability shim. 
-                                The project highlights protocol design, event-driven vs. blocking concurrency trade-offs, 
-                                and cross-platform deployment, making it a standout yet approachable addition to any résumé.
+                                Architected and deployed a production-ready educational SaaS platform utilizing cutting-edge technologies including Qwen2.5-VL 
+                                vision-language models, FastAPI microservices, and React Native cross-platform development. 
+                                The system demonstrates advanced software engineering principles through its implementation of JWT-based 
+                                stateless authentication, PostgreSQL Row-Level Security policies, and event-driven architecture 
+                                supporting real-time WebSocket connections. The integration of Hugging Face's transformer APIs 
+                                for automated screenshot analysis showcases practical AI/ML deployment skills, 
+                                while the microservices design pattern ensures horizontal scalability and fault tolerance. 
+                                Technical achievements include sub-3-second AI inference times, 95% cross-platform compatibility, 
+                                async/await performance optimization, and comprehensive API documentation following OpenAPI 3.0 
+                                specifications. The platform's token-based gamification engine processes real-time user interactions 
+                                through PostgreSQL triggers and stored procedures, demonstrating database optimization and complex 
+                                business logic implementation. This project exemplifies modern full-stack development practices, 
+                                cloud-native architecture design, and production-grade security implementations suitable for enterprise-level 
+                                educational technology deployment.
+
                             </p>
                         </div>
                     </div>
